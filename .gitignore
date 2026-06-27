@@ -1,0 +1,14 @@
+# Environment variables (contains sensitive secrets)
+.env
+
+# Backups folder (contains copies of .env with secrets)
+artefak/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS system files
+.DS_Store
